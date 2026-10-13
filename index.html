@@ -11,8 +11,9 @@
     /*hola*/
     *{
       box-sizing: border-box;
-      padding: 15px;
-      margin: 5px; 
+      padding: 0%;
+      margin: 0%; 
+
     } 
     :root{
      --bg-color: #1f61dc;
@@ -22,11 +23,12 @@
     }
      body {
         background:var(--bg-color);
+        font-size: 8px;
       }
 .dm-sans-cuerpo {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
 }
     div{
@@ -36,7 +38,12 @@
     header h2{
       background:var(--secondary-color);
       color:var(--bg-color);
-      font-size: 35px;
+      font-size: 1em;
+      text-transform: uppercase;
+      border-radius: 70px;
+      margin: 25px;
+      padding: 8px 16px;
+      display: inline-block;
     }
     ul{
       text-align: center;
@@ -44,38 +51,62 @@
     ul li{
       list-style-type: none;
       display: inline-block;
+      margin: 1%;
+      padding: 5px 10px;
       background:var(--secondary-color);
       color:var(--bg-color);
-      font-size: 15px;
+      font-size: 4em;
+      border-radius: 50px;
     }
+
       header{
-        width: 1000;
+        width: fit-content;
+        max-width: 100%;
+        height: 35vh;
+        margin: 20px auto;
+        padding: 20px;
         color:var(--terciary-color);
         background:var(--primary-color);
-        font-size: 50px;
+        font-size: 6em;
+        border-radius: 50px;
+        display: block;
       }
       hgroup{
         text-align: center;
       }
       main{
-      background:var(--bg-color)
-      }               
-      footer{
-        text-align: center;
-        color:var(--secondary-color);
-        font-size: 25px;
+      width: 100%;
+      height: 70vh;
+      background:var(--bg-color);
       }
       section h3{
+        margin: 100px auto;
+        padding: 1%;
         background-color:var(--bg-color);
         text-align: center;
         color:var(--secondary-color);
-        font-size: 50px;
+        font-size: 5em;
       }
       section h4{
-        text-align: center;
-        background:var(--primary-color);
-        color:var(--terciary-color);
-        font-size: 30px;
+       width: fit-content;
+       max-width: 100%;
+       margin: 10px auto;
+       padding: 0.5% 1%;
+       text-align: center;
+       background: var(--primary-color);
+       color: var(--terciary-color);
+       font-size: 5em;
+       border-radius: 50px;
+       display: block;
+      }
+            footer{
+      width: 100%;
+      height: 10vh;
+      margin: 160px auto;
+      padding: 5%;
+      text-align: center;
+      color:var(--secondary-color);
+      font-size: 5em;
       }
    </style>
 </head>
@@ -95,7 +126,7 @@
       <li>ATEZZ</li> 
       <li>CRAVITY</li>
       <li>ENHYPEN</li>
-      <li>INI</li>
+      <li>INI</li></br>
       <li>ITZY</li>
       <li>Kep1er</li>
       <li>LIGHTSUM</li>
@@ -108,7 +139,7 @@
       <li>JO1</li>
       <li>LOONA</li>
       <li>NCT DREAM</li>
-      <li>NMIXX</li>
+      <li>NMIXX</li></br>
       <li>P1Harmony</li> 
       <li>STAYC</li>
       <li>THE BOYZ</li>
@@ -121,8 +152,8 @@
 
 <footer>
  <h5>Presented by Toyota</h5>
+ <button><a href="https://lastfm-img.freetls.fastly.net/i/u/ar0/9367e865b26a1ca7a492f214fc664e6e">KCON</a></button>
 </footer>
-<button><a href="https://lastfm-img.freetls.fastly.net/i/u/ar0/9367e865b26a1ca7a492f214fc664e6e">KCON</a></button>
  </div>
 </body>
 </html>
